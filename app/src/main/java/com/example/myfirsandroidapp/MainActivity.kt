@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
             MyFirsAndroidAppTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    Greeting("China Number 1... no cap")
+                    Greeting("Hello")
                 }
             }
         }
@@ -38,6 +38,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     MyFirsAndroidAppTheme {
-        Greeting("China")
+        Greeting("Android")
     }
 }
